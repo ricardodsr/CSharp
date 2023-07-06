@@ -7,15 +7,14 @@ public class User
 
 
 // An example of an if-else statement
-if (user.Age > 18)
+if (condition)
 {
-    Console.WriteLine("Welcome!");
+    // do something
 }
 else
 {
-    Console.WriteLine("Sorry, you must be 18 or older to enter.");
+    // do something else
 }
-
 
 // An example of a switch statement
 switch (user.Name)
@@ -29,4 +28,11 @@ switch (user.Name)
     default:
         Console.WriteLine("Hello, stranger!");
         break;
+}
+
+//write a for statment example in c#
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("The number is {0}", i);
 }
